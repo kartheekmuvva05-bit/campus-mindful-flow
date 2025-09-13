@@ -47,6 +47,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        wellness: {
+          primary: "hsl(var(--wellness-primary))",
+          "primary-light": "hsl(var(--wellness-primary-light))",
+          secondary: "hsl(var(--wellness-secondary))",
+          accent: "hsl(var(--wellness-accent))",
+          warning: "hsl(var(--wellness-warning))",
+          calm: "hsl(var(--wellness-calm))",
+        },
+        mood: {
+          "very-sad": "hsl(var(--mood-very-sad))",
+          sad: "hsl(var(--mood-sad))",
+          neutral: "hsl(var(--mood-neutral))",
+          happy: "hsl(var(--mood-happy))",
+          "very-happy": "hsl(var(--mood-very-happy))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +72,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-wellness": "var(--gradient-wellness)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        wellness: "var(--shadow-wellness)",
+        "card-soft": "var(--shadow-card)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        bounce: "var(--transition-bounce)",
       },
       borderRadius: {
         lg: "var(--radius)",

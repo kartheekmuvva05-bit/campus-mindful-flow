@@ -15,6 +15,12 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        wellness: "bg-wellness-primary text-white hover:bg-wellness-primary/90 shadow-wellness transition-smooth",
+        "mood-very-sad": "bg-mood-very-sad/10 text-mood-very-sad border border-mood-very-sad/20 hover:bg-mood-very-sad/20 transition-bounce",
+        "mood-sad": "bg-mood-sad/10 text-mood-sad border border-mood-sad/20 hover:bg-mood-sad/20 transition-bounce",
+        "mood-neutral": "bg-mood-neutral/10 text-mood-neutral border border-mood-neutral/20 hover:bg-mood-neutral/20 transition-bounce",
+        "mood-happy": "bg-mood-happy/10 text-mood-happy border border-mood-happy/20 hover:bg-mood-happy/20 transition-bounce",
+        "mood-very-happy": "bg-mood-very-happy/10 text-mood-very-happy border border-mood-very-happy/20 hover:bg-mood-very-happy/20 transition-bounce",
       },
       size: {
         default: "h-10 px-4 py-2",
